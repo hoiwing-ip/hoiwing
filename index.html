@@ -1,42 +1,688 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<title>UI Style Guide</title>
-		<link rel="stylesheet" href="css/style.css" />
-	</head>
-	<body>
-		<div id="side-nav" class="qp-ui-side-nav-drawer">
-			<div id="side-nav-wrapper">
-			    <h1>UI Style Guide</h1>
-			    <nav>
-			    	<ul>
-			    		<li><a href="open.html">开放平台UI规范</a></li>
-			    		<li><a href="">直播器UI2.0规范</a></li>
-			    		<li><a href="">直播APP UI规范</a></li>
-			    		<li><a href="">iOS&Android Guide</a></li>
-			    	</ul>
-			    </nav>
-			    <div class="legal">
-			    	<p>© Hoi Wing</p>
-                </div>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>叶开荣 - Yip.</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Bodo - Simple One Page Personal" name="description">
+    <meta content="BdgPixel" name="author">
+    <!--Fav-->
+    <link href="images/favicon.ico" rel="shortcut icon">
+    
+    <!--styles-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    
+    <!--fonts google-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]>
+       <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--PRELOADER-->
+    <div id="preloader">
+      <div id="status">
+        <img alt="logo" src="images/logo-big.png">
+      </div>
+    </div>
+    <!--/.PRELOADER END-->
+
+    <!--HEADER -->
+    <div class="header">
+      <div class="for-sticky">
+        <!--LOGO-->
+        <div class="col-md-2 col-xs-6 logo">
+          <a href="index.html"><img alt="logo" class="logo-nav" src="images/logo.png"></a>
+        </div>
+        <!--/.LOGO END-->
+      </div>
+      <div class="menu-wrap">
+        <nav class="menu">
+          <div class="menu-list">
+            <a data-scroll="" href="#home" class="active">
+              <span>首页</span>
+            </a>
+            <a data-scroll="" href="#about">
+              <span>关于</span>
+            </a>
+            <a data-scroll="" href="#work">
+              <span>作品</span>
+            </a>
+             <a data-scroll="" href="#services">
+              <span>专业</span>
+            </a>
+            <a data-scroll="" href="#employement">
+              <span>经验</span>
+            </a>
+            <a data-scroll="" href="#skill">
+              <span>技能</span>
+            </a>
+            <a data-scroll="" href="#education">
+              <span>教育</span>
+            </a>
+          </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+      </div>
+      <button class="menu-button" id="open-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button><!--/.for-sticky-->
+    </div>
+    <!--/.HEADER END-->
+    
+    <!--CONTENT WRAP-->
+    <div class="content-wrap">
+      <!--CONTENT-->
+      <div class="content">
+        <!--HOME-->
+        <section id="home">
+          <video autoplay loop muted playsinline class="bgvideo" poster="images/hero1.jpg">
+            <source src="images/hong.mp4" type="video/mp4">
+          </video>
+          <div class="container">
+            <div class="row">
+              <div class="wrap-hero-content">
+                  <div class="hero-content">
+                    <h1>Hello</h1>
+                    <br>
+                    <span class="typed"></span>
+                  </div>
+              </div>
+              <div class="mouse-icon margin-20">
+                <div class="scroll"></div>
+              </div>
             </div>
-		</div>
-		
-		<div class="content">
-			<div class="home_title">
-				<h1>Hi!</h1>
-				<p>“如果设计师认为他的设计很完美，那并不是因为没有什么可添加的，而是没有什么可减少了。” —— Antoine de Saint-Exupery</p>
-			</div>
-			<div class="content_boxs">
-				<div class="menu">
-					<a href="open.html"><img src="img/open_icon.png"><br>开放平台</a>
-					<a href=""><img src="img/live_icon.png"><br>云直播器</a>
-				</div>
-			</div>
-			<div class="content_boxs">
-				<p>注：以上均为UI规范指导内容，目的是统一规范设计元素，具体可视情况而定。</p>
-			</div>
-		</div>
-	</body>
+          </div>
+        </section>
+        <!--/.HOME END-->
+
+        <!--ABOUT-->
+        <section id="about">
+          <div class="col-md-6 col-xs-12 no-pad">
+            <div class="bg-about"></div>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12 white-col">
+            <div class="row">
+              <!--OWL CAROUSEL2-->
+              <div class="owl-carousel2">
+                <div class="col-md-12">
+                  <div class="wrap-about">
+                    <div class="w-content">
+                      <p class="head-about">
+                        性格内敛，心怀谦卑，喜欢独立思考，具有巨蟹座的细腻和创新，沟通合作认真负责，竭尽所能把工作做好做精！
+                        工作之余喜欢原生溪流造景，探访野外溪流群落生境，户外徒步运动，玩玩吉他唱唱歌。
+                      </p>
+                      
+                      <h5 class="name">
+                        Yip hoi wing
+                      </h5>
+                      <img alt="signature" src="images/signature.png">
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col-md-12 col-sm-12 col-xs-12 white-col">
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+                      <div class="wrap-about">
+                        <table class="w-content">
+                          <tr>
+                            <td class="title">姓名 </td>
+                            <td class="break">:</td>
+                            <td> 叶开荣</td>
+                          </tr>
+                          <tr>
+                            <td class="title">手机 </td>
+                            <td class="break">:</td>
+                            <td> 15800038770</td>
+                          </tr>
+                          <tr>
+                            <td class="title">邮箱 </td>
+                            <td class="break">:</td>
+                            <td> 940498420@qq.com</td>
+                          </tr>
+                          <tr>
+                            <td class="title">地区 </td>
+                            <td class="break">:</td>
+                            <td> 广州</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Q Q </td>
+                            <td class="break">:</td>
+                            <td> 940498420</td>
+                          </tr>
+                          <tr>
+                            <td class="title">微信 </td>
+                            <td class="break">:</td>
+                            <td> 15800038770</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/.OWL CAROUSEL2 END-->
+            </div>
+          </div>
+        </section>
+        <!--/.ABOUT END-->
+
+        <!--WORK-->
+        <section class="grey-bg mar-tm-10" id="work">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>作品</span>
+                </h3>
+                <p class="content-detail">
+                  所看见的都已经过去，未来的才是最精彩的，最值得拥有的。
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <!--PORTFOLIO IMAGE-->
+                <ul class="portfolio-image">
+                  <li class="col-md-6">
+                    <a href="images/bw-1.png"><img alt="image" src="images/bw-1.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            界面 ｜ 欢拓云直播
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-2.png"><img alt="image" src="images/bw-2.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            画册 ｜ 欢拓
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-3.png"><img alt="image" src="images/bw-3.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            界面 ｜ 欢拓
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-4.png"><img alt="image" src="images/bw-4.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            网页 ｜ 欢拓
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-5.png"><img alt="image" src="images/bw-5.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            界面 ｜ 拍大师
+                          </p>  
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-6.png"><img alt="image" src="images/bw-6.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            标志 | 乐研陪伴
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-7.png"><img alt="image" src="images/bw-7.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            界面 ｜ 邻里商城
+                          </p>  
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-8.png"><img alt="image" src="images/bw-8.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            网页 ｜ INNOVA
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <!--/.PORTFOLIO IMAGE END-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.WORK END-->
+
+        <!--SERVICES-->
+        <section class="white-bg" id="services">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>专业</span>
+                </h3>
+                <p class="content-detail">
+                  术业有专攻。
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <div class="row">
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          d
+                        </h3>
+                        <p class="head-sm">
+                          界面设计
+                        </p>
+                        <p class="text-grey">
+                          基于台式电脑和移动手持设备的应用软件提供用户交互界面设计支持。
+                        </p>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use" style="font-size: 35px;">
+                          i
+                        </h3>
+                        <p class="head-sm">
+                          网页设计
+                        </p>
+                        <p class="text-grey">
+                          为企业产品及文化传播提供官方网站、营销专题活动页面、H5页面等设计。
+                        </p>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          l
+                        </h3>
+                        <p class="head-sm">
+                          平面设计
+                        </p>
+                        <p class="text-grey">
+                          企业宣传画册、折页单张、展会推广宣传物料等设计。
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <p class="icon-use">
+                          h
+                        </p>
+                        <p class="head-sm">
+                          前端代码
+                        </p>
+                        <p class="text-grey">
+                          将网页设计稿转换为前端代码静态网页，自己设计自己码。
+                        </p>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          g
+                        </h3>
+                        <p class="head-sm">
+                          原生缸造景
+                        </p>
+                        <p class="text-grey">
+                          将大自然中的溪流群落生境搬回来，溪流里的灵动生态让你身心舒畅。
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.SERVICES END-->
+
+        <!--EMPLOYEMENT-->
+        <section class="grey-bg" id="employement">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>工作经验</span>
+                </h3>
+                <p class="content-detail">
+                  每一次选择都是一个全新的挑战，放下才能远行，轻松自如——经验给予我的就是面对新事业能有条而不紊。
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <div class="row">
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2010 - 2011
+                            </h2>
+                            <p class="job">
+                              网页设计
+                            </p>
+                            <p class="company">
+                              苏荷酒吧
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                苏荷酒吧是中国酒吧连锁企业。
+                                <br>在职期间主要负责苏荷酒吧的官网、音乐主题活动页面、宣传物料等视觉设计。
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2011 - 2013
+                            </h2>
+                            <p class="job">
+                              ui设计
+                            </p>
+                            <p class="company">
+                              爱拍原创
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                爱拍原创是一个简单强大的视频剪辑平台。
+                                <br>在职期间负责视频编辑软件“拍大师”PC端及移动端的界面设计，官网及专题页面设计，宣传物料设计。
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>  
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2014 - 2015
+                            </h2>
+                            <p class="job">
+                              ui设计 
+                            </p>
+                            <p class="company">
+                              阳光康众
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                广东天泽阳光康众医疗投资管理有限公司，2009年成立于广州，是一家移动医疗O2O服务运营商。
+                                <br>在职期间主要负责官方网站、App及微信公众号的界面设计。
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2015 - 2019
+                            </h2>
+                            <p class="job">
+                              ui设计
+                            </p>
+                            <p class="company">
+                              欢拓云直播
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                广州欢拓网络科技有限公司，提供互动直播直播SAAS服务的平台。
+                                <br>在职期间主要负责pc客户端、手机App及官网的界面设计，辅以宣传画册和易拉宝等一些宣传物料的设计。负责设计团队日常工作管理，经验交流分享等。
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.EMPLOYEMENT END-->
+
+        <!--SKILLS-->
+        <section class="white-bg" id="skill">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>技能</span>
+                </h3>
+                <p class="content-detail">
+                  呈现出一件作品的技能方法千万种，不要成为技能机器，一定要思想先行。
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <!--SKILLST-->
+                <div class="skillst">
+                  <div class="skillbar" data-percent="95%">
+                    <div class="title head-sm">
+                      Photoshop
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="85%">
+                    <div class="title head-sm">
+                      CCorelDRAW
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="70%">
+                    <div class="title head-sm">
+                      Illustrator
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="78%">
+                    <div class="title head-sm">
+                      HTML
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="73%">
+                    <div class="title head-sm">
+                      CSS
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>                 
+                </div>
+                <!--/.SKILLST END-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.SKILLS END-->
+
+        <!--EDUCATION-->
+        <section class="grey-bg" id="education">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>教育</span>
+                </h3>
+                <p class="content-detail">
+                  與其守成法，毋寧尚自然；與其求劃一，毋寧展個性。<br><br>——蔡元培
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <div class="row">
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2001 - 2004
+                            </h2>
+                            <p class="job">
+                              美术
+                            </p>
+                            <p class="company">
+                              茂名市艺术高级中学
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                以美术特长生参加入学面试，顺利入读茂名市艺术高级中学。除了学习基础课程以外，跟随专业的艺术老师学习基础的艺术课程，如素描速写、水彩水粉、书法国画等。
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2004 - 2008
+                            </h2>
+                            <p class="job">
+                              动画
+                            </p>
+                            <p class="company">
+                              华南农业大学艺术学院
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                大学四年的学习之余，接触了前沿互联网，开始为互联网技术的创新应用所迷恋，学习Html+css网页编写，利用免费空间建个人主页，购买Hawkhost搭建论坛及博客，折腾成为了互联网设计师。
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.EDUCATION END-->
+        
+        <!--FOOTER-->
+        <footer>
+          <div class="footer-top">
+            <ul class="socials">
+              <li class="facebook">
+                <a href="https://www.facebook.com/%E4%B8%8D%E4%BA%8C%E6%B0%B4%E8%B4%A7-421531674964800/" data-hover="Facebook">Facebook</a>
+              </li>
+              <li class="instagram">
+                <a href="https://www.instagram.com/hoiwing_yip/" data-hover="Instagram">Instagram</a>
+              </li>
+              <li class="twitter">
+                <a href="#" data-hover="Twitter">Twitter</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="container">
+              <div class="row">
+                <img src="images/logo-bottom.png" alt="logo bottom" class="center-block" />
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!--/.FOOTER-END-->
+
+      <!--/.CONTENT END-->
+      </div>
+    <!--/.CONTENT-WRAP END-->
+    </div>
+    
+
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.appear.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/classie.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+    <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/masonry.js" type="text/javascript"></script>
+    <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
 </html>
